@@ -2,8 +2,10 @@
 
     1. What is Semantic HTML? 
         Semantic markup is HTML that introduces meaning to html elements.
+
     2. What is HTML used for? 
         the structure of a Web page
+        
     3. What is an attribute and where do we put it? 
         these are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want.
     4. What is the h1 tag used for? How many times should I use it on a page?
