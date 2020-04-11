@@ -10,47 +10,128 @@
         these are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want.
     4. What is the h1 tag used for? How many times should I use it on a page?
         You should only use one <h1> per page
+
     5. Name two tags that have required attributes
+        <a> <img>
     6. What do we put in the head of our HTML document? 
+        <META> <Links> <title> 
     7. What is an id? 
+
     8. What elements can I add an id to? 
+         (ID) which must be unique in the whole document.
     9. How many times can I use the same id on a page? 
+        Once
     10. What is a class? 
+          the name of the item that you want to style
     11. What elements can I add a class to? 
+        Any elements
     12. How many times can I use the same class on a page? 
+        As many as needed
     13. How do I get my link to open in a new tab?
+        targer="_blank"
     14. What is the alt attribute in the image tag used for? 
+        Alternative text in case an image can't be displayed and SEO
     15. How do I reference an id?
+        # + ID name.
     16. What is the difference between a section and a div
+        just a Semantic tag, they both do the same thing    
     17. What is CSS used for? 
+
     18. How to we select an element? Example - every h2 on the page
+        h2{
+
+        }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        .container #logo
     20. How do we select classes in CSS?
+            .name { 
+
+            }
     21. How do we select a p element with a single class of “human””?
+        .human p {
+
+        }
+
     22. What is a parent child selector? When would this be useful? 
+        .wapper > h2 {
+            // CSS Property
+        }
+
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {
+
+        }
     24. What is a pseudo selector?
+        There is two type of pseudo selector  :class or ::element
     25. What do we use the change the spacing between lines?
+        line-height
+
     26. What do we use to change the spacing between letters?
+        letter-spacing
+    
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+
     29. How do I select everything on the page? 
+        *{
+
+        }
     30. How do I write a comment in CSS?
+    /*   Comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd    
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls -a
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm filename
     34. Why should I use version control? 
+        To organize files, diferent version of you code and, keeps track of every mofication and to manage your team changes to your 
+        source code
     35. How often should I commit to github?
+        before any major code change, before you leave your desk and at the end of work day.
     36. What is the command we would use to push our repo up to github? 
+        git push origin "first_Name - last_name"
+
     37. Walk me through Lambda's git flow. 
+
+        - Fork it
+        - Clone it
+        - Add your TL as a colaborator
+        - Open the Clone repo in vscode
+        - Create my Own Branch
+        - Stage all files
+        - Add a commit message
+        - push to my own Branch in github
+        - New Pull Request
+        - Change the Base repo to my own
+        - Add your TL as a Reviewers
+        - Create a Pull Request.
+                   DONE
+
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+            inline - An inline element does not start on a new line and only takes up as much width as necessary.
+            block - A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+    
     2. What happens when an element is positioned absolutely? 
+        An element with position: absolute; is positioned relative to the nearest positioned
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display: inline-block;
+    
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            Block elements by default       <div> <p> <h1>
+            Inline elements by default      <a> <img>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        The CSS box model is a set of rules that defines how every element in a web page is rendered
+        set a universal selector and give it box-sizing:border-box.
 
 
 
