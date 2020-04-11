@@ -1,3 +1,11 @@
+######## Code Pen Projects 
+
+    1. https://codepen.io/brunopaula/pen/ZEGNrZB
+    2. https://codepen.io/brunopaula/pen/VwLoKbo
+
+        Stretch Bakery Page
+                github link 
+                https://github.com/devbrunopaula/bakery-project
 
 
     1. What is Semantic HTML? 
